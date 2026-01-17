@@ -2,7 +2,7 @@
 
 Windows Wallet, kullanıcıların gelir-gider takibi yapmasını sağlayan ve sanal ticaret (trade) simülasyonu sunan modern bir Windows Forms uygulamasıdır.
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![Project Status](https://img.shields.io/badge/Status-In_Development-yellow)
 ![Language](https://img.shields.io/badge/Language-C%23-blue)
 ![Database](https://img.shields.io/badge/Database-SQLite-lightgrey)
 
@@ -30,7 +30,7 @@ Bu proje, standart bir bütçe takip uygulamasının ötesine geçerek, kullanı
 
 | Dashboard | İşlem Ekleme |
 |-----------|--------------|
-| ![Dashboard](https://via.placeholder.com/400x300?text=Dashboard+Ekrani) | ![AddTransaction](https://via.placeholder.com/400x300?text=Islem+Ekleme) |
+| ![Dashboard](dashboard.png) | ![AddTransaction](islem.png) |
 
 *(Not: Buraya projenin ekran görüntülerini yükleyip linklerini koyabilirsiniz)*
 
