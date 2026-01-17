@@ -32,7 +32,6 @@ Bu proje, standart bir bütçe takip uygulamasının ötesine geçerek, kullanı
 |-----------|--------------|
 | ![Dashboard](dashboard.png) | ![AddTransaction](islem.png) |
 
-*(Not: Buraya projenin ekran görüntülerini yükleyip linklerini koyabilirsiniz)*
 
 ## ⚙️ Kurulum ve Çalıştırma
 
