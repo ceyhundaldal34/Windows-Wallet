@@ -35,6 +35,7 @@
             this.txtPass = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnCikis = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lblBaslik
@@ -51,7 +52,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(45, 236);
+            this.label2.Location = new System.Drawing.Point(45, 199);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 41);
             this.label2.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(45, 115);
+            this.label1.Location = new System.Drawing.Point(45, 83);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 41);
             this.label1.TabIndex = 2;
@@ -70,7 +71,7 @@
             // txtUser
             // 
             this.txtUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtUser.Location = new System.Drawing.Point(52, 159);
+            this.txtUser.Location = new System.Drawing.Point(52, 127);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(289, 55);
             this.txtUser.TabIndex = 3;
@@ -78,7 +79,7 @@
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtPass.Location = new System.Drawing.Point(52, 280);
+            this.txtPass.Location = new System.Drawing.Point(52, 243);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(289, 55);
@@ -90,7 +91,7 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(91, 377);
+            this.btnLogin.Location = new System.Drawing.Point(82, 331);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(223, 71);
             this.btnLogin.TabIndex = 5;
@@ -112,12 +113,24 @@
             this.btnCikis.UseVisualStyleBackColor = false;
             this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click_1);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(12, 423);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(323, 29);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Kayıt Olmak için Buraya Tıkla";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(400, 500);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPass);
@@ -143,5 +156,6 @@
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnCikis;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
